@@ -120,6 +120,7 @@ a {
 /* ---------- 4. Présentation ---------- */
 .presentation {
   padding: 96px 0;
+  height: 570px;
 }
 
 .presentation__contenu {
