@@ -99,6 +99,7 @@ a {
 /* ---------- 3. En-tête ---------- */
 .en-tete {
   border-bottom: 1px solid var(--couleur-bordure);
+
 }
 
 .en-tete__contenu {

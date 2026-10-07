@@ -1,9 +1,10 @@
 .div {
     position: relative;
-    width: 300px;
+    width: calc(80%/2);
     height: 300px;
     overflow: hidden;
     background-color: black;
+    margin-bottom: 20px;
 }
 
 .div img {
@@ -13,8 +14,10 @@
     transition: 0.3s;
 }
 
-.div h2,
-.div p {
+.div h4,
+.div p,
+.div ul,
+.div a {
     position: absolute;
     color: white;
     opacity: 0;
@@ -22,22 +25,63 @@
     z-index: 2;
 }
 
-.div h2 {
-    top: 80px;
+.div h4 {
+    top: 40px;
     left: 20px;
 }
 
 .div p {
-    top: 130px;
+    top: 90px;
     left: 20px;
     right: 20px;
+    font-size: 15px;
 }
 
 .div:hover img {
     opacity: 0.5;
 }
+.div ul {
+    top: 190px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+}
+.div a {
+    top: 250px;
+    left: 20px;
+    right: 20px;
+}
 
-.div:hover h2,
-.div:hover p {
+
+.div:hover h4,
+.div:hover p,
+.div:hover ul,
+.div:hover a {
     opacity: 1;
+}
+.div a{
+    color: blue;
+}
+.div h2{
+    color: white;
+    font-weight: bold;
+}
+.div li {
+  padding: 4px 12px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: black;
+  background-color: var(--couleur-fond-clair);
+}
+.projets{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#activePr{
+    color: #AC31DC;
+    font-weight: bold;
 }
