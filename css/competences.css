@@ -1,0 +1,33 @@
+#competence{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 400px;
+}
+.menu a:hover {
+    color: #AC31DC;
+}
+
+#active {
+    color: #AC31DC;
+    font-weight:bold ;
+}
+.competence{
+    display: flex;
+    width: calc(80%/2);
+    border: black 0.5px solid;
+    border-radius: 10px;
+    height: 150px;
+    background-color: #FFF9F9;
+}
+.competence .competence_img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-top:20px;
+}
+.competence .projet__texte{
+    margin: 30px 10px;
+}

@@ -60,7 +60,13 @@ ul {
   padding: 0;
   list-style: none;
 }
-
+#ActiveP{
+  color: #AC31DC;
+  font-weight:bold ;
+}
+ul a:hover{
+  color: #AC31DC;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -163,7 +169,7 @@ a {
 
 /* ---------- 5. Sections communes ---------- */
 .section {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 .section--claire {
@@ -180,19 +186,6 @@ a {
   color: var(--couleur-texte-doux);
 }
 
-/* ---------- 6. Compétences ---------- */
-.competences {
-  display: flex;
-  gap: 16px;
-}
-
-.competences li {
-  padding: 10px 22px;
-  border: 1px solid var(--couleur-bordure);
-  border-radius: var(--rayon);
-  font-weight: 600;
-  background-color: var(--couleur-fond);
-}
 
 /* ---------- 7. Projets ---------- */
 /* Les projets sont empilés les uns sous les autres. */

@@ -1,0 +1,43 @@
+.div {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.div h2,
+.div p {
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+.div h2 {
+    top: 80px;
+    left: 20px;
+}
+
+.div p {
+    top: 130px;
+    left: 20px;
+    right: 20px;
+}
+
+.div:hover img {
+    opacity: 0.5;
+}
+
+.div:hover h2,
+.div:hover p {
+    opacity: 1;
+}

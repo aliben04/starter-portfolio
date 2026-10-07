@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/competences.css">
 </head>
 <body>
 
-
-
     <header class="en-tete">
             <div class="conteneur en-tete__contenu">
-            <a class="logo" href="#presentation">Prénom Nom</a>
+            <a class="logo" href="#presentation">Ali Ben Ettoumi</a>
             <nav aria-label="Navigation principale">
                 <ul class="menu">
                 <li><a href="index.html">Présentation</a></li>
-                <li><a href="competences.html">Compétences</a></li>
+                <li><a id="active" href="competences.html">Compétences</a></li>
                 <li><a href="projet.html">Projets</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#propos">A Propos</a></li>
@@ -24,19 +26,47 @@
             </nav>
             </div>
     </header>
+    
     <section id="competences" class="section section--claire">
       <div class="conteneur">
         <h2>Compétences</h2>
         <p class="section__intro">Les technologies et outils que j'utilise.</p>
-        <ul class="competences">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>Figma</li>
-        </ul>
       </div>
     </section>
+
+    <div id="competence">
+      <article class="competence">
+            <img class="competence_img" src="images/android.jpg" alt="Aperçu du projet 1" >
+            <div class="projet__texte">
+              <h3>Android </h3>
+              <p>Courte description du projet : son objectif, ce que vous avez réalisé et ce que vous avez appris.</p>
+            </div>
+          </article>
+      <article class="competence">
+            <img class="competence_img" src="images/html.jpg" alt="Aperçu du projet 1" >
+            <div class="projet__texte">
+              <h3>HTML</h3>
+              <p>Courte description du projet : son objectif, ce que vous avez réalisé et ce que vous avez appris.</p>
+            </div>
+          </article>
+      <article class="competence">
+            <img class="competence_img" src="images/javascript.jpg" alt="Aperçu du projet 1" >
+            <div class="projet__texte">
+              <h3>JavaScript</h3>
+              <p>Courte description du projet : son objectif, ce que vous avez réalisé et ce que vous avez appris.</p>
+              <ul class="technologies">
+            </div>
+          </article>
+      <article class="competence">
+            <img class="competence_img" src="images/sql.jpg" alt="Aperçu du projet 1" >
+            <div class="projet__texte">
+              <h3>SQL</h3>
+              <p>Courte description du projet : son objectif, ce que vous avez réalisé et ce que vous avez appris.</p>
+
+            </div>
+          </article>
+
+    </div>
 
 
     <footer class="pied">
